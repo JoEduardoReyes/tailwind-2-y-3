@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card {
+	@apply w-48 h-64 shadow-md rounded-lg;
+}
+
+.card-cover {
+	@apply w-full h-3/5 rounded-t-lg bg-cover;
+}
+
+.card-text {
+	@apply w-full h-2/5 px-4 py-2 rounded-b-lg;
+}
+
+.card-text p:first-child {
+	@apply font-bold text-xl mb-1;
+}
+
+.card-text p:last-child {
+	@apply font-semibold;
+}
+
+.card-text__green {
+	@apply bg-secondary text-white;
+}
+
+.card-text__white {
+	@apply bg-white text-cyan-600;
+}
