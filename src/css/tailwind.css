@@ -29,3 +29,11 @@
 .card-text__white {
 	@apply bg-white text-tertiary;
 }
+
+.highlighted-card-title {
+	@apply text-3xl px-8 pt-8 pb-2 font-semibold text-white;
+}
+
+.highlighted-card-description {
+	@apply text-sm  pl-8 text-black mr-24;
+}
