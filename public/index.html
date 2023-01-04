@@ -13,7 +13,7 @@
 	<body>
 		<nav></nav>
 		<div id="tabBar"></div>
-		<section class="w-screen h-screen relative top-0 left-0 overflow-x-auto">
+		<section class="w-screen h-screen">
 			<div id="home">
 				<div class="w-full h-3/4">
 					<div class="w-full h-full">
@@ -37,36 +37,39 @@
 					</div>
 				</div>
 			</div>
-			<div
-				id="recommended"
-				class="w-max py-20 px-4 flex gap-4 absolute top-3/4 left-0 overflow-x-scroll"
-			>
-				<div class="card">
-					<div class="card-cover bg-norway"></div>
-					<div class="card-text card-text__green">
-						<p>Noruega</p>
-						<p>Bellos paisajes</p>
+			<div id="recommended" class="w-auto py-20 px-4">
+				<h2 class="text-3xl font-semibold text-primary">Recomendados</h2>
+				<div
+					id="cards"
+					class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-contain flex gap-4"
+				>
+					<div class="card">
+						<div class="card-cover bg-norway"></div>
+						<div class="card-text card-text__green">
+							<p>Noruega</p>
+							<p>Bellos paisajes</p>
+						</div>
 					</div>
-				</div>
-				<div class="card">
-					<div class="card-cover bg-LA"></div>
-					<div class="card-text card-text__white">
-						<p>Los Angeles</p>
-						<p>Bellos paisajes</p>
+					<div class="card">
+						<div class="card-cover bg-LA"></div>
+						<div class="card-text card-text__white">
+							<p>Los Angeles</p>
+							<p>Bellos paisajes</p>
+						</div>
 					</div>
-				</div>
-				<div class="card">
-					<div class="card-cover bg-norway"></div>
-					<div class="card-text card-text__green">
-						<p>Noruega</p>
-						<p>Bellos paisajes</p>
+					<div class="card">
+						<div class="card-cover bg-norway"></div>
+						<div class="card-text card-text__green">
+							<p>Noruega</p>
+							<p>Bellos paisajes</p>
+						</div>
 					</div>
-				</div>
-				<div class="card">
-					<div class="card-cover bg-LA"></div>
-					<div class="card-text card-text__white">
-						<p>Los Angeles</p>
-						<p>Bellos paisajes</p>
+					<div class="card">
+						<div class="card-cover bg-LA"></div>
+						<div class="card-text card-text__white">
+							<p>Los Angeles</p>
+							<p>Bellos paisajes</p>
+						</div>
 					</div>
 				</div>
 			</div>
